@@ -1,3 +1,6 @@
+
+![Texto alternativo opcional se a imagem não carregar](http://www.exemplodeurl.com/logo.png)
+
 <div>Olá, eu sou o PedroBot </div>
 
 Bot com funções básicas construído em python
