@@ -1,5 +1,5 @@
 
-![Texto alternativo opcional se a imagem não carregar](http://www.exemplodeurl.com/logo.png)
+!width="150px" height="150px>
 
 <div>Olá, eu sou o PedroBot </div>
 
