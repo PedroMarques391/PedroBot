@@ -1,9 +1,10 @@
 
-!width="150px" height="150px>
+<img src="https://cdn-icons-png.flaticon.com/512/4712/4712139.png"  height="100" width="100">
+
 
 <div>Olá, eu sou o PedroBot </div>
 
-Bot com funções básicas construído em python
+Sou um Bot capaz de fazer funções básicas que foi construído em python.
 
 <div>
 Para usar você precisa executar os seguintes comandos: 
