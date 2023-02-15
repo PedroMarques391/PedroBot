@@ -4,7 +4,7 @@
 
 <div>Olá, eu sou o PedroBot </div>
 
-Sou um Bot capaz de fazer funções básicas que foi construído em python.
+Sou um Bot construído em python capaz de fazer funções básicas.
 
 <div>
 Para usar você precisa executar os seguintes comandos: 
