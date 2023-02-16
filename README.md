@@ -4,7 +4,7 @@
 
 <div>Olá, eu sou o PedroBot </div>
 
-Sou um Bot construído em python capaz de fazer funções básicas.
+Sou um Bot construído em python capaz de fazer algumas funções básicas.
 
 <div>
 Para usar você precisa executar os seguintes comandos: 
@@ -19,10 +19,10 @@ Para usar você precisa executar os seguintes comandos:
   pip install selenium
  ```
  ```
-  pip install pyttsx3
+ pip install pyttsx3
  ```
  ```
-  pip install pytube
+ pip install pytube
   ```
   ```
   pip install colorama 
@@ -56,7 +56,5 @@ Para usar você precisa executar os seguintes comandos:
    else: 
         time_func = time.time
    ```
-  
 </p>
-    
-    Agora está prontinho para usar :)
+ Agora está prontinho para usar :)
