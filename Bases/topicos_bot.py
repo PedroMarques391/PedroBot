@@ -699,14 +699,14 @@ Conversas = [
  ' Eae irmão',
   ' Eae, como vai você?',
  ' Eae amigo',
-  ' Eae, como vai você?'
-
-]
+  ' Eae, como vai você?',
 
 
+  #==================
+  #Categoría
+  #Psicologia
 
-bot_psicologo = [
-    'Estou Triste',
+  'Estou Triste',
     'Eu não posso tirar sua dor, mas posso ouvir se você quiser falar sobre isso',
     'Quero mesmo conversar',
     'Claro, estou aqui por você',
@@ -719,3 +719,8 @@ bot_psicologo = [
     'Acho que tenho depressão',
     "Além das alterações de humor ou irritabilidade, ansiedade e angústia a depressão possui diversos sinais e sintomas, que podem ser isolados ou somatizados. Os principais sintomas da depressão são: Além das alterações de humor ou irritabilidade, ansiedade e angústia a depressão possui diversos sinais e sintoma que podem ser isolados ou somatizados. Os principais sintomas da depressão são:irritabilidade, ansiedade e angústia;desânimo, cansaço fácil, necessidade de maior esforço para fazer as coisas;diminuição ou incapacidade de sentir alegria e prazer;desinteresse, falta de motivação e apatia;sentimentos de medo, insegurança, desesperança, desespero e desamparo;pessimismo, ideias frequentes e desproporcionais de culpa baixa auto-estima; sensação, inutilidade, ruína e fracasso;interpretação distorcida e negativa da realidade;dificuldade de concentração, raciocínio mais lento e esqueciment diminuição do desempenho sexual;perda ou aumento do apetite e do peso; insônia ou despertar matinal precoce;dor e outros sintomas físicos não justificados por problemas médicos.Se você tiver alguns desses sintomas, é importante que você procure um médico para diagnosticar."
 ]
+
+
+
+
+

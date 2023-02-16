@@ -370,49 +370,24 @@ def streaming():
 
 def pedrobot():
     print("Tudo bem, vamos conversar")
-    print("Como podemos começar?")
-    print("[1] - Conversa em Geral, nada específico")
-    print("[2] - Desabafo")
-    esc = int(input("---> "))
 
-    if esc == 1:
-        robot.say(falas_bot.fala23)
-        robot.runAndWait()
-        chatbot = ChatBot("PedroBot")
-        trainer = ListTrainer(chatbot)
-        trainer.train(Conversas)
-        fala = "PedroBot: Olá, digíte 'sair' a qualquer momento para encerrar. :)"
-        print(fala)
-        while fala != "sair":
-            fala = input("---> ")
-            if fala == "sair":
-                robot.say(falas_bot.fala24)
-                robot.runAndWait()
-                print("PedroBot: saindo..")
-            else:
-                resposta = chatbot.get_response(fala)
+    robot.say(falas_bot.fala23)
+    robot.runAndWait()
+    chatbot = ChatBot("PedroBot")
+    trainer = ListTrainer(chatbot)
+    trainer.train(Conversas)
+    fala = "PedroBot: Olá, digíte 'sair' a qualquer momento para encerrar. :)"
+    print(fala)
+    while fala != "sair":
+        fala = input("---> ")
+        if fala == "sair":
+            robot.say(falas_bot.fala24)
+            robot.runAndWait()
+            print("PedroBot: saindo..")
+        else:
+            resposta = chatbot.get_response(fala)
 
-                print(f"PedroBot: {resposta}")
-
-    elif esc == 2:
-        robot.say(falas_bot.fala22)
-        robot.runAndWait()
-        chatbot = ChatBot("PedroBot")
-        trainer = ListTrainer(chatbot)
-        trainer.train(bot_psicologo)
-        fala = "PedroBot: Olá, vamos conversar" 
-        print("digíte 'sair' a qualquer momento para encerrar. :)")
-        print(fala)
-        while fala != "sair":
-            fala = input("---> ")
-            if fala == "sair":
-                robot.say(falas_bot.fala24)
-                robot.runAndWait()
-                print("PedroBot: saindo..")
-            else:
-                resposta = chatbot.get_response(fala)
-
-                print(f"PedroBot: {resposta}")
+            print(f"PedroBot: {resposta}")
 
 
 
