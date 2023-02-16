@@ -11,7 +11,7 @@ import os
 import pyttsx3
 from pytube import YouTube
 from colorama import Fore
-from Bases.topicos_bot import Conversas, bot_psicologo
+from Bases.topicos_bot import Conversas
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer  
 
