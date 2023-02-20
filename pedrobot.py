@@ -17,7 +17,7 @@ from chatterbot.trainers import ListTrainer
 
 robot = pyttsx3.init()
 
-print(Fore.GREEN + 'Olá estranho, qual é o seu nome? ')
+print(Fore.GREEN + 'Olá, qual é o seu nome? ')
 robot.say(falas_bot.fala3)
 robot.runAndWait()
 nome = input("--> ")
@@ -388,6 +388,8 @@ def pedrobot():
             resposta = chatbot.get_response(fala)
 
             print(f"PedroBot: {resposta}")
+            robot.say(resposta)
+            robot.runAndWait()
 
 
 

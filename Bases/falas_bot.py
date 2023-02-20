@@ -1,7 +1,7 @@
 
 fala = "Olá, esse é um teste"
 fala2 = f"Não se preocupe, vou listar abaixo o que sou capaz de fazer"
-fala3 = f"Olá estranho, qual é o seu nome?"
+fala3 = f"Olá, qual é o seu nome?"
 fala4 = "Diretório Criado com sucesso, encerrando por aqui!!"
 fala5 = "Prontinho, diretório excluido permanentente."
 fala6 = "ATENÇÃO!!! Os ditetórios removidos não podem ser recuperados!!"
